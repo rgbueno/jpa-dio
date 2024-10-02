@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class CadastroCliente {
+public class CadastroClienteTestarTransacao {
 
     public static void main(String... string) {
 
