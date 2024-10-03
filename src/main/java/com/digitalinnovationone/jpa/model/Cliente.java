@@ -15,7 +15,7 @@ public class Cliente {
 	@Column(name = "nome", nullable = false)
 	private String nome;
 
-	@OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "cliente", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Carro> carros;
 
 	public List<Carro> getCarros() {

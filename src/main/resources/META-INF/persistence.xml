@@ -6,7 +6,7 @@
 	<persistence-unit name="Clientes-PU">
 		<properties>
 			<!-- Url de conexao do banco de dados -->
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/db_cadastro_cliente" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3308/jpa_dio" />
 			<!--Usuario de conexao do banco de dados-->
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<!--Senha do usuario de conexao do banco de dados-->

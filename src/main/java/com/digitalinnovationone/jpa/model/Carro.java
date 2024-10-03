@@ -25,7 +25,7 @@ public class Carro {
     @JoinColumn(name="cliente_id", nullable=false)
     private Cliente cliente;
 
-    @OneToMany(mappedBy = "carro", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "carro", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<Multa> multas;
 
     public List<Multa> getMultas() {
